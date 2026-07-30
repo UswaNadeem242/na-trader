@@ -10,6 +10,12 @@ import img1 from "@/assets/images/electric-car-charging-connected-to-the-grid-20
 import img2 from "@/assets/images/rearview-car-parked-in-luxury-showroom-car-dealer-2023-03-30-01-57-28-utc.jpg"
 import img3 from "@/assets/images/hand-holding-electric-car-charger-electric-vehicl-2022-11-16-14-02-45-utc.jpg"
 import img4 from "@/assets/images/indian-businessman-charging-car-at-outdoor-ev-stat-2023-03-17-23-18-50-utc.jpg"
+import ser1 from "@/assets/images/PNG/filling_station.png"
+import ser2 from "@/assets/images/PNG/car_with_flash.png"
+import ser3 from "@/assets/images/PNG/car_eco.png"
+import ser4 from "@/assets/images/PNG/accumulator.png"
+import ser5 from "@/assets/images/PNG/battery_full.png"
+import ser6 from "@/assets/images/car_with_plug.png"
 export const menuItems = [
   {
     title: "Home",
