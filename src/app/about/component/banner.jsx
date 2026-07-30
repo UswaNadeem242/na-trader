@@ -9,7 +9,6 @@ export default function Banner() {
 >
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#052730]/70" />
-
       {/* Content */}
       <div className="relative z-10 flex min-h-[500px] items-center justify-center ">
         <div className="w-full text-center text-white lg:w-3/4">
