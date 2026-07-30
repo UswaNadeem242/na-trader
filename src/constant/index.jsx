@@ -15,7 +15,7 @@ import ser2 from "@/assets/images/PNG/car_with_flash.png"
 import ser3 from "@/assets/images/PNG/car_eco.png"
 import ser4 from "@/assets/images/PNG/accumulator.png"
 import ser5 from "@/assets/images/PNG/battery_full.png"
-import ser6 from "@/assets/images/car_with_plug.png"
+import ser6 from "@/assets/images/PNG/car_with_plug.png"
 export const menuItems = [
   {
     title: "Home",
