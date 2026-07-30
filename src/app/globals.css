@@ -3,9 +3,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --natrader-green: #69A316;
+  --natrader-border:#E3F0D3;
+  --natrader-backgorund:#F5FAEE;
+
 }
 
 @theme inline {
+  --color-natrader-green: var(--natrader-green);
+  --color-natrader-border: var(--natrader-border);
+  --color-natrader-backgorund: var(--natrader-backgorund);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
