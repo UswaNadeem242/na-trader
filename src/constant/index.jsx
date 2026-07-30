@@ -121,6 +121,33 @@ export const HomeFeaturedBlog = {
 };
 
 
+export const HomeOurServicesData = [
+  {
+    title: "Home Charging",
+    image: ser1,
+  },
+  {
+    title: "Renewable Energy",
+    image: ser2,
+  },
+  {
+    title: "EV Drivers",
+    image: ser3,
+  },
+  {
+    title: "AC Charger",
+    image: ser4,
+  },
+  {
+    title: "DC Charger",
+    image: ser5,
+  },
+  {
+    title: "24/7 Support",
+    image: ser6,
+  },
+];
+
 //   about page
 
 export const featureData = [

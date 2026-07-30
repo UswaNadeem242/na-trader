@@ -1,31 +1,13 @@
 import Image from "next/image";
+import ser1 from "@/assets/images/PNG/filling_station.png"
+import ser2 from "@/assets/images/PNG/car_with_flash.png"
+import ser3 from "@/assets/images/PNG/car_eco.png"
+import ser4 from "@/assets/images/PNG/accumulator.png"
+import ser5 from "@/assets/images/PNG/battery_full.png"
+import ser6 from "@/assets/images/car_with_plug.png"
+import { HomeOurServicesData } from "@/constant";
+import Link from "next/link";
 
-const services = [
-  {
-    title: "Home Charging",
-    image: "/assets/images/PNG/filling_station.png",
-  },
-  {
-    title: "Renewable Energy",
-    image: "/assets/images/PNG/car_with_flash.png",
-  },
-  {
-    title: "EV Drivers",
-    image: "/assets/images/PNG/car_eco.png",
-  },
-  {
-    title: "AC Charger",
-    image: "/assets/images/PNG/accumulator.png",
-  },
-  {
-    title: "DC Charger",
-    image: "/assets/images/PNG/battery_full.png",
-  },
-  {
-    title: "24/7 Support",
-    image: "/assets/images/car_with_plug.png",
-  },
-];
 export default function OurServices() {
   return (
     <section className="py-24 bg-gradient-to-b from-natrader-backgorund via-natrader-backgorund to-transparent">
@@ -55,12 +37,12 @@ export default function OurServices() {
                 Quasi dolor architecto molestias aritatis minima accusamus.
               </p>
 
-              <a
+              <Link
                 href="/service-list"
                 className="inline-flex items-center bg-[#87C332] hover:bg-[#6ea524] text-white px-7 py-3 rounded-full transition duration-300"
               >
                 More Services
-              </a>
+              </Link>
             </div>
 
           </div>
@@ -70,7 +52,7 @@ export default function OurServices() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          {services.map((service) => (
+          {HomeOurServicesData?.map((service) => (
 
             <div
               key={service.title}
@@ -107,12 +89,12 @@ export default function OurServices() {
               </div>
 
               <h4 className="text-2xl font-semibold mb-4">
-                <a
+                <Link
                   href="/service-detail"
                   className="group-hover:text-white transition"
                 >
                   {service.title}
-                </a>
+                </Link>
               </h4>
 
               <p className="text-gray-600 group-hover:text-gray-200 mb-6 leading-7 transition">
@@ -120,7 +102,7 @@ export default function OurServices() {
                 Nulla voluptate amet enim atque impedit inventore.
               </p>
 
-              <a
+              <Link
                 href="/service-detail"
                 className="
                 inline-block
@@ -137,7 +119,7 @@ export default function OurServices() {
                 "
               >
                 Learn More
-              </a>
+              </Link>
             </div>
 
           ))}
